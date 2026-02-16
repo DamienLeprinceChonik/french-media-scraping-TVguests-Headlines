@@ -1,6 +1,7 @@
 # french-media-scraping-TVguests-Headlines
 This repository contains scraping scripts for:  
 - Le Monde (press) news headlines for any given period from 2016
+- BFM TV - Face à Duhamel list of guests
 - France 5 – C ce Soir list of guests (Source: Youtube)
 - Europe 1/CNews – Interview politique de Sonia Mabrouk list of guests
 - FranceInfo - Les informées list of guests
