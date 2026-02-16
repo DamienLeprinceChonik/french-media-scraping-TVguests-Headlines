@@ -2,7 +2,7 @@
 This repository contains in the R file scraping scripts for:  
 - Le Monde (press) news headlines for any given period from 2016
 - BFM TV - Face à Duhamel list of guests
-- France 5 – C ce Soir list of guests (Source: Youtube)
+- France 5 – C ce Soir list of guests (Source: Youtube API)
 - Europe 1/CNews – Interview politique de Sonia Mabrouk list of guests
 - FranceInfo - Les informées list of guests
 - FranceInter - Le débat du 7-10h list of guests
