@@ -3,11 +3,13 @@
 # Author: Damien Leprince-Chonik
 # Date: 2025-05-11
 # Description:
-#   This script scrapes article metadata (title, subtitle, date, author, link)
-#   from Europe 1/Cnews archives of the emission "l'interview politique de Sonia Mabrouk"
+#   This script scrapes emissions metadata (title, subtitle, guests, date, link)
+#   from Europe 1/Cnews archives of the emission "linterview politique de Sonia Mabrouk"
 #
 # Technical point:
-#   Two functions have been constructed due to differences in the structure of the archive
+#   - Two functions have been constructed due to differences in the structure of the archive.
+#   - Name of the guest is taken from the description of the emission and its description 
+#     is taken (following a pattern described below) as a proxy of the television banner presentation which is of interest.
 #
 # Data Source:
 #   https://www.europe1.fr/emissions/linterview-politique-de-8h20?page=
@@ -117,7 +119,7 @@ all_episodes <- bind_rows(episodes_1_10, episodes_11_37) %>%
   select(-date_text)
 
 # ========================
-# 5. --- Automatic cleaning ---
+# 5. --- Automatic cleaning for properly identifying guests and description of the guest ---
 # ========================
 
 emissions_SoniaMabroukInterview_clean_automatically = all_episodes %>%
