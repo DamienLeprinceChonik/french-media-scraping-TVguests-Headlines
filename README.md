@@ -1,5 +1,5 @@
 # french-media-scraping-TVguests-Headlines
-This repository contains scraping scripts for:  
+This repository contains in the R file scraping scripts for:  
 - Le Monde (press) news headlines for any given period from 2016
 - BFM TV - Face à Duhamel list of guests
 - France 5 – C ce Soir list of guests (Source: Youtube)
