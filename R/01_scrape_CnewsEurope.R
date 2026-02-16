@@ -4,7 +4,7 @@
 # Date: 2025-05-11
 # Description:
 #   This script scrapes article metadata (title, subtitle, date, author, link)
-#   from Europe 1/Cnews archives of the emission "linterview politique de Sonia Mabrouk"
+#   from Europe 1/Cnews archives of the emission "l'interview politique de Sonia Mabrouk"
 #
 # Technical point:
 #   Two functions have been constructed due to differences in the structure of the archive
