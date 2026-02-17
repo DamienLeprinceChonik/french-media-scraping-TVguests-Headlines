@@ -34,7 +34,7 @@ library(writexl)
 # =============================================================================
 
 base_url <- "https://www.franceinfo.fr/replay-radio/les-informes-de-france-info/"
-pages <- paste0(base_url, 1:14, ".html")
+pages <- paste0(base_url, 1:149, ".html") # Please adjust the period scraped here and line 67
 
 # =============================================================================
 # 3. --- Function: Extract Episode Links from Archive Page ---
@@ -64,7 +64,7 @@ get_links_from_page <- function(url) {
 
 all_links_toward_emission <- c()  # Initialisation
 
-for (i in 1:14) {
+for (i in 1:149) { # Please adjust the period scraped here and line 37
   url <- paste0(base_url, i, ".html")
   message(sprintf("Scraping page %d / 149 : %s", i, url))
   links <- get_links_from_page(url)
