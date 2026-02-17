@@ -1,7 +1,7 @@
 # =============================================================================
 # Title: Scraping C ce Soir (France 5) Archives through Youtube 
 # Author: Damien Leprince-Chonik
-# Date: 2025-15-16
+# Date: 2025-15-05
 # Description:
 #   This script scrapes emission metadata (title, subtitle, guests, date, link)
 #   from C ce Soir emission archives from Youtube.
